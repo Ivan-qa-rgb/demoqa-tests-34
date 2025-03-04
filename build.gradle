@@ -7,9 +7,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'com.codeborne:selenide:6.12.0'
+    testImplementation 'com.codeborne:selenide:7.7.3'
     testImplementation 'org.slf4j:slf4j-simple:2.0.7'
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
 }
 
 test {
