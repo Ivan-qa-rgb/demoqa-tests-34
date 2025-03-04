@@ -21,11 +21,19 @@ public class TestBoxTests {
     @Test
     void fillFormTest() {
 
-        open("/text-box");
-        $("#userName").setValue("Alex");
-        $("#userEmail").setValue("alex@egorov.com");
-        $("#currentAddress").setValue("Sone street 1");
-        $("#permanentAddress").setValue("Another street 3");
+        open("/automation-practice-form");
+        $("#firstName").setValue("Ivan");
+        $("#lastName").setValue("Ivanov");
+        $("#userEmail").setValue("ivan@ivanov.com");
+        $("#gender").setValue("gender-radio-1");
+        $("#Mobile Number").setValue("7123456789");
+        $("#data0fBirthInput").setValue("15 Mar 2010");
+        $("#subjects-labelContainer").setValue("Biology");
+        $("#subjects-label").setValue("hobbies-checkbox-1");
+        $("#uploadPicture").setValue("0a7e446b8166536d1d74430d256da9f7_big");
+        $("#Current Address").setValue("Shelton Street 75");
+        $("#true").setValue("NCR");
+        $("#true").setValue("Noida");
         $("#submit").click();
 
 
